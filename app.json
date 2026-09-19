@@ -1,35 +1,32 @@
 {
   "expo": {
-    "name": "Finger Flick Free-Kick Master",
+    "name": "Finger Flick Free Kick Master",
     "slug": "finger-flick-free-kick-master",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash-icon.png",
     "userInterfaceStyle": "dark",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0b190e"
-    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/splash-icon.png",
         "backgroundColor": "#0b190e"
       },
       "package": "com.freekickmaster.game"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/splash-icon.png"
     },
     "plugins": [
       "expo-asset",
-      "expo-font",
-      "expo-status-bar",
-      "expo-audio"
-    ]
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8fde6f07-b758-45d0-9bf9-cddc424958d4"
+      }
+    }
   }
 }
