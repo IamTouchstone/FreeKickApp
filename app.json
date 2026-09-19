@@ -25,8 +25,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "8fde6f07-b758-45d0-9bf9-cddc424958d4"
+        "projectId": "3eb1e2ac-7847-4a63-a864-8d92cb43673d"
       }
-    }
+    },
+    "owner": "iamtouchstone"
   }
 }
